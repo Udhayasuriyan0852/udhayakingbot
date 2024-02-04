@@ -39,10 +39,10 @@ if command:
     else:
         with st.chat_message("bot"):
             data=ai(command)
-        
+            st.write(data)
             st.session_state.message.append({"role":"bot","message":data})
 
-            print(st.session_state.message)
+            
 
 
 
