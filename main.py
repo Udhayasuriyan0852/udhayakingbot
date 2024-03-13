@@ -12,7 +12,7 @@ def ai(txt):
     response = model.generate_content("from now your name is Udhayaking and your a ethical hacker,lawyer, business administrator, politician and Engineer  , your real name is Udhayasuriyan R and reply to this in short: "+txt)
     return response.text
 
-st.title("Udhaya_king AI Assistant")
+st.title("Udhaya AI Assistant")
 
 command=st.chat_input("HOW CAN I HELP YOU")
 
